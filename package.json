@@ -1,0 +1,32 @@
+{
+  "name": "async-replace",
+  "version": "1.0.0",
+  "description": "add String.prototype.replaceAsync method",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest index.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/vc-next/async-replace.git"
+  },
+  "keywords": [
+    "string",
+    "async",
+    "replace"
+  ],
+  "author": "vc-next",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vc-next/async-replace/issues"
+  },
+  "homepage": "https://github.com/vc-next/async-replace#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "jest": "^27.2.5"
+  }
+}
